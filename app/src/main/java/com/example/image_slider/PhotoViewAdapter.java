@@ -48,7 +48,7 @@ public class PhotoViewAdapter extends PagerAdapter {
 
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
-//        super.destroyItem(container, position, object); phai xoa tk nay di, neu ko sse bi loi crash app 
+//        super.destroyItem(container, position, object); phai xoa tk nay di, neu ko sse bi loi crash app
         container.removeView((View)object);
     }
 }
